@@ -1,0 +1,68 @@
+{
+    "depth": 0.1,
+    "scale": 0.1,
+    "precipitation": "snow",
+    "category": "icy",
+    "temperature": 0.0,
+    "temperature_modifier": "frozen",
+    "downfall": 0.5,
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0.3,
+    "effects": {
+        "fog_color": 14022655,
+        "foliage_color": 16777215,
+        "grass_color": 16777215,
+        "sky_color": 13037055,
+        "water_color": 14221311,
+        "water_fog_color": 15007743,
+        "grass_color_modifier": "none",
+        "particle": { 
+            "probability": 1,
+            "options": {
+              "type": "minecraft:spit"
+            }
+          },
+        "mood_sound":{
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        }
+    },
+    "surface_builder": "tutorial:tutorial_builder",
+    "carvers": {
+        "air":[
+            "minecraft:cave",
+            "minecraft:canyon"
+        ]
+    },
+    "features":[
+        [],
+        [],
+        [
+            "minecraft:iceberg_packed",
+            "minecraft:iceberg_blue"
+        ],
+        [],
+        [
+            "minecraft:blue_ice"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "starts": [],
+    "spawners":{
+        "monster":[],
+        "creature":[],
+        "ambient":[],
+        "water_creature":[],
+        "water_ambient":[],
+        "misc":[]
+    },
+    "spawn_costs":{}
+}
